@@ -33,4 +33,5 @@ RUN . /opt/ros/humble/setup.sh && colcon build
 RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 RUN echo "source /root/ws/install/setup.bash" >> ~/.bashrc
 
+# Set default command
 CMD ["bash"]
